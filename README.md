@@ -76,9 +76,6 @@ num_adv	0.40
 python main.py --config ./configs/FedAvg_FashionMNIST_config.yaml --epochs 100 --attack IPM --defense 
 FLTrustLayerMultiAnchorDSACV3Stable --distribution non-iid --gpu_idx 0
 
-在 CIFAR10 + MinSum 攻击下运行 MARS-FL：
-
-python main.py --config ./configs/FedAvg_CIFAR10_config.yaml --epochs 100 --attack MinSum --defense FLTrustLayerMultiAnchorDSACV3Stable --distribution non-iid --gpu_idx 0 --num_adv 0.4
 
 5. 支持的攻击与防御方法
 
